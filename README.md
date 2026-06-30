@@ -1,5 +1,7 @@
 # Wobb Frontend Assignment - Solution Summary
 
+> **Live Deployment Link**: *[Paste your live Vercel deploy URL here!]*
+
 This repository contains a fully refactored, optimized, and redesigned influencer search application built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Zustand**. 
 
 ---
@@ -18,16 +20,12 @@ This repository contains a fully refactored, optimized, and redesigned influence
   - Fixed the **Engagement Rate** box to display the formatted engagement rate percentage correctly (e.g. `1.26%` for Cristiano) rather than performing artificial multiplication (`* 10000`).
 - **Unused Files**: Removed duplicate unused search input component (`src/components/SearchBar.tsx`).
 
-### 3. Modern UI/UX Redesign
-- **Fluid Layout**: Upgraded `src/index.css` to remove rigid layout widths and implemented a fully responsive screen design.
-- **Glassmorphic Theme**: Designed card structures, overlays, headers, and inputs using light/dark responsive CSS variables, soft blurs (`backdrop-blur`), and shadows.
-- **Campaign Sidebar Manager**: Created a dedicated `ListManager` sidebar component for managing campaigns:
-  - Add new campaigns/lists.
-  - Display counts of creators in each campaign.
-  - Swiftly review added creators (avatars + names) with one-click removal.
-  - Delete empty or obsolete lists (with confirmation alerts).
-- **Interactive Discover Cards**: Re-engineered `ProfileCard.tsx` with platform-specific badges and tags. Built an absolute popover dropdown for the **Add to List** button to add the influencer to any list while preventing duplicate entries.
-- **Polished Profile Details**: Redesigned `ProfileDetailPage.tsx` with statistical cards, custom indicators/icons (`lucide-react`), platform-themed badges, and quick campaign-list selectors.
+### 3. Royal Indigo & Violet Gradient Theme (UI/UX)
+- **Royal Indigo Palette**: Replaced stark black and flat white interfaces with a professional Stripe-inspired Royal Indigo canvas. The app uses a slate-cream canvas (`#f4f6fc`) in light mode and a deep navy-indigo/obsidian backdrop (`#0b0d19`) in dark mode, containing rounded panels (`rounded-[28px]`) with fine outlines.
+- **Micro-Accents & Gradients**: Integrated fuchsia-to-pink and blue-to-indigo gradients (`text-gradient-primary`, `text-gradient-accent`) on key statistics and metrics (Reach, Engagement Rate) to create a data-dense, engaging console.
+- **Pill & Capsule Buttons**: Reengineered buttons (like **Save to Campaign**) and search fields into clean capsules (`rounded-full`) with floating drop shadows (`shadow-button`). Active platform switch tabs are accented with fuchsia, red, and cyan gradients.
+- **Floating Header**: Styled the main workspace header with clean, solid brand typography.
+- **Deployment Redirection**: Configured `vercel.json` rewrites to redirect all subroutes to `index.html`, supporting refresh actions on Vercel deployments.
 
 ---
 
