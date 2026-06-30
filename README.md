@@ -1,6 +1,6 @@
 # Wobb Frontend Assignment - Solution Summary
 
-> **Live Deployment Link**: *[Paste your live Vercel deploy URL here!]*
+> **Live Deployment Link**: [vibe-coder-assignment-azure.vercel.app](https://vibe-coder-assignment-azure.vercel.app/)
 
 This repository contains a fully refactored, optimized, and redesigned influencer search application built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Zustand**. 
 
